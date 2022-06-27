@@ -13,3 +13,18 @@
     right: 0;
     top: 0;
 }
+
+.my_button {
+
+    padding: 10px 15px;
+    background-color: #353535;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none   ;
+}
+
+a:link svg, a:visited svg  {
+
+    color: black;
+}
