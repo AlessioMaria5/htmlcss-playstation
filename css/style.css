@@ -1,0 +1,15 @@
+.my_bg {
+
+    background-color: black;
+    position: relative;
+    height: 20px;
+}
+
+.my_bg img {
+
+    margin: 5px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
