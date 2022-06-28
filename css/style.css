@@ -55,6 +55,29 @@
     margin-bottom: 20px;
 }
 
+.ext_button {
+
+    width: fit-content;
+    height: 35px;
+    position: relative;
+}
+
+.ext_button:hover .btn_border {
+
+  
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 20px;
+    bottom: 20%;
+    left: 2%;
+    z-index: 100;
+    
+}
+
+
+
 .mb_red {
 
     background-color: red;
@@ -76,7 +99,6 @@ a:link svg, a:visited svg  {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     height: 500px;
 
 }
