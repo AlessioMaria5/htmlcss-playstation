@@ -5,6 +5,11 @@
     height: 20px;
 }
 
+.my_bg_2 {
+
+    background-color: #151A34;
+}
+
 .my_bg img {
 
     margin: 5px;
@@ -14,6 +19,31 @@
     top: 0;
 }
 
+.my_bg_3 {
+
+    background-color: #003991;
+}
+
+.footer_logo {
+
+    filter: brightness(100) saturate(0) contrast(100);
+}
+
+.img_footer {
+
+    position: relative;
+}
+
+.r_footer {
+
+
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    font-size: 10px;
+}
+
 .my_button {
 
     padding: 10px 15px;
@@ -21,7 +51,8 @@
     border-radius: 20px;
     font-size: 15px;
     color: white;
-    text-decoration: none   ;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .mb_red {
@@ -128,6 +159,15 @@ main {
     border-bottom: 2px blue solid;
     opacity: 100%;
 
-    
 }
 
+/* .footer_list a:visited , .footer_list a:link {
+
+    color: white;
+    text-decoration: none;
+} */
+
+.footer_list ul {
+
+    list-style: none;
+}
