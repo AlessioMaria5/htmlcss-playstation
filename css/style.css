@@ -72,14 +72,14 @@ a:hover .hv_img {
 .sld_hv:hover {
 
 
-    animation: sldhv 2s forwards;
+    animation: sldhv 0.5s forwards;
 
 
 }
 
 .sld_hv {
 
-    animation: out 2s forwards;
+    animation: out 0.5s forwards;
 
 }
 
