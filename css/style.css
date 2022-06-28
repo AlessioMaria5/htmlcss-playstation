@@ -56,7 +56,23 @@
     position: relative;
 }
 
-.my_button:hover:after {
+
+
+.my_button.mb_wh:hover:after {
+
+    content: '';
+    border: 2px solid white;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    border-radius: 20px;
+    position: absolute;
+
+
+}
+
+.my_button.mb_bk:hover:after {
 
     content: '';
     border: 2px solid black;
@@ -66,6 +82,7 @@
     right: 5px;
     border-radius: 20px;
     position: absolute;
+
 }
 
 
@@ -162,7 +179,7 @@ a:hover .hv_img {
 
 main {
 
-    margin-top: 96px;
+    margin-top: 76px;
 }
 
 .thumb_ply {
@@ -189,3 +206,7 @@ main {
     list-style: none;
 }
 
+.my_dp {
+
+    width: 1000px;
+}
