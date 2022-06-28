@@ -24,7 +24,38 @@
     text-decoration: none   ;
 }
 
+.mb_red {
+
+    background-color: red;
+}
+
+.mb_blue {
+
+    background-color: blue;
+}
+
+
 a:link svg, a:visited svg  {
 
     color: black;
 }
+
+#leader {
+
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+}
+
+a:hover .hv_img {
+
+    border: blue 2px solid;
+}
+
+
+
+
+
