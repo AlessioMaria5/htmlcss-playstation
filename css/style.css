@@ -53,7 +53,21 @@
     color: white;
     text-decoration: none;
     margin-bottom: 20px;
+    position: relative;
 }
+
+.my_button:hover:after {
+
+    content: '';
+    border: 2px solid black;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    border-radius: 20px;
+    position: absolute;
+}
+
 
 
 .mb_red {
@@ -174,3 +188,4 @@ main {
 
     list-style: none;
 }
+
